@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('pixelated.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'CustomFont', sans-serif;
+}
+
+body {
+    background: url(blurbg.jpg);
+    background-size: cover;
+    backdrop-filter: blur(15px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box img {
+    width: 330px;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,0.4));
+}
+
+.login-box {
+    width: 350px;
+    padding: 30px;
+    background: #c6941f;
+    border-radius: 25px;
+    color: white;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background: rgb(16, 95, 43);
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    opacity: 0.85;
+}
+
+.create {
+    display: block;
+    margin-top: 10px;
+    color: #cfe3ff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.terms {
+    margin-top: 25px;
+    font-size: 11px;
+    text-align: center;
+    color: #ddd;
+}
+
+.terms a {
+    color: #fff;
+    text-decoration: underline;
+}

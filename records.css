@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #06326b !important;
+}
+
+.navbar .navbar-brand u {
+    text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #8498ad;
+    min-width: 220px;
+    max-width: 220px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.sidebar a.text-warning {
+    font-weight: bold;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.table {
+    background-color: white;
+}
+
+#shiftingForm {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}

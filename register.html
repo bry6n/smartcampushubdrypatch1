@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleregister.css">
+    <title>Register</title>
+    <link rel="shortcut icon" type="image/png" href="cake.png">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE LOGO -->
+    <div class="logo-box">
+        <img src="cake.png" alt="Smart Campus Hub Logo">
+    </div>
+
+    <!-- RIGHT SIDE REGISTER BOX -->
+    <div class="login-box">
+        <h2>REGISTER</h2>
+
+        <form action="register.php" method="POST">
+    <input type="text" name="first_name" placeholder="First Name" required>
+    <input type="text" name="last_name" placeholder="Last Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Create Account</button>
+</form>
+
+
+        <a href="index.html" class="create">Already have an account?</a>
+<p class="terms">
+    By creating an account, you agree to our 
+    <a href="Termsofservice.html">Terms of Service</a> and 
+    <a href="privacypolicy.html">Privacy Policy</a>.
+</p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
